@@ -3,11 +3,11 @@ function countLetters(string) {
 	var counter = {}
 	for (var i=0; i < words.length; i++) {
 
-		//if (counter[words[i]] == undefined) {
-		//	counter[words[i]] = 1
-		//} else {
-			counter[words[i]]// = counter[words[i]] + 1
-		//}
+		if (counter[words[i]] == undefined) {
+			counter[words[i]] = 1
+		} else {
+			counter[words[i]]= counter[words[i]] + 1
+		}
 	}
 
 
